@@ -4,6 +4,7 @@ import SectionPage from './SectionPage'
 import { Routes, Route } from 'react-router-dom'
 import SectionTwoPage from './SectionTwoPage'
 import SkidkaPage from './SkidkaPage'
+import SummaPage from './SummaPage'
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path='/' element={<SectionPage/>}/>
-      <Route path='/two' element={<SectionTwoPage/>}/>
-      <Route path='/skidka' element={<SkidkaPage/>}/>
+      <Route path='/Как покупать' element={<SectionTwoPage/>}/>
+      <Route path='/Распродажи' element={<SkidkaPage/>}/>
+      <Route path='/Цены' element={<SummaPage/>}/>
     </Routes>
     </>
   )
