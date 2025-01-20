@@ -7,6 +7,14 @@ import KurtkaImg from '../public/kurtka-img.png'
 import FormaOne from '../public/forma-one.png'
 import FormaTwo from '../public/forma-two.png'
 import Ilyustratsiy from '../public/illyustratsiy.png'
+import Logotip1 from './../public/logotip1.png'
+import Logotip2 from './../public/logotip2.png'
+import Logotip3 from './../public/logotip3.png'
+import SelectIcons from '../public/select-icons.png'
+import Illyustratsiya1 from '../public/illyustratsiya.png'
+import Illyustratsiya2 from '../public/illustration.png'
+import Illyustratsiya3 from '../public/illyustratsiya2.png'
+import Illyustratsiya4 from '../public/Illyustratsiya-3.png'
 
 const SectionPage = () => {
   return (
@@ -95,7 +103,7 @@ const SectionPage = () => {
         </div>
       </section>
 
-      <section className=' w-full h-auto'>
+      <section className='mb-20 w-full h-auto'>
         <div className=' w-full h-auto py-8 flex justify-center items-center'>
           <div className='w-[80%] h-full flex justify-start items-center'>
             <h2 className='text-3xl font-bold w-[50%]'>OkeyPost удобная и быстрая доставка посылок из Великобритании </h2>
@@ -141,6 +149,190 @@ const SectionPage = () => {
             <button className='w-[250px] h-14 bg-green-500 rounded-full text-white font-medium'>Рассчитать</button>
           </header>
         </section>
+      </section>
+
+      <section className=' w-full h-auto py-5 mb-20'>
+        <div className='mb-10 w-full h-auto py-5 flex justify-center items-center'>
+          <div className='w-[82%] h-full  flex justify-start items-center'>
+            <h2 className='font-bold text-3xl'>Варианты доставки:</h2>
+          </div>
+        </div>
+
+        <header className='mb-10 w-full h-auto space-y-10 flex justify-around items-center flex-col'>
+
+          <div className='shadow-md rounded-xl w-[82%] h-24 flex items-center'>
+            <div className=' w-24 h-full flex justify-center items-center'>
+              <img src={Logotip1} alt="" />
+            </div>
+
+            <div className=' w-[47%] h-[80%] border-r-[1px] border-gray-300 flex justify-start items-center pl-4'>
+              <h2 className='font-medium'>Почта России</h2>
+            </div>
+
+            <div className=' w-[14%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Сроки:</p>
+                <h2 className='font-medium'>10-14 дней</h2>
+              </div>
+            </div>
+
+            <div className=' w-[15%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Стоимость доставки:</p>
+                <h2 className='font-medium'>от £27.00</h2>
+              </div>
+            </div>
+
+            <div className=' w-[11%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Итого:</p>
+                <h2 className='font-medium'>£41.99</h2>
+              </div>
+            </div>
+
+            <div className='w-[5%] h-[80%] flex justify-center items-center'>
+              <img src={SelectIcons} alt="" />
+            </div>
+          </div>
+
+          <div className='shadow-md rounded-xl w-[82%] h-24 flex items-center'>
+            <div className=' w-24 h-full flex justify-center items-center'>
+              <img src={Logotip2} alt="" />
+            </div>
+
+            <div className=' w-[47%] h-[80%] border-r-[1px] border-gray-300 flex justify-start items-center pl-4'>
+              <h2 className='font-medium'>EMS ПОЧТА РОССИЯ</h2>
+            </div>
+
+            <div className=' w-[14%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Сроки:</p>
+                <h2 className='font-medium'>9-12 дней</h2>
+              </div>
+            </div>
+
+            <div className=' w-[15%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Стоимость доставки:</p>
+                <h2 className='font-medium'>от £40.00</h2>
+              </div>
+            </div>
+
+            <div className=' w-[11%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Итого:</p>
+                <h2 className='font-medium'>£54.55</h2>
+              </div>
+            </div>
+
+            <div className='w-[5%] h-[80%] flex justify-center items-center'>
+              <img src={SelectIcons} alt="" />
+            </div>
+          </div>
+
+          <div className='shadow-md rounded-xl w-[82%] h-24 flex items-center'>
+            <div className=' w-24 h-full flex justify-center items-center'>
+              <img src={Logotip3} alt="" />
+            </div>
+
+            <div className=' w-[47%] h-[80%] border-r-[1px] border-gray-300 flex justify-start items-center pl-4'>
+              <h2 className='font-medium'>ПОЧТА РОССИИ МЕЛКИЕ ПАКЕТЫ</h2>
+            </div>
+
+            <div className=' w-[14%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Сроки:</p>
+                <h2 className='font-medium'>10-14 дней</h2>
+              </div>
+            </div>
+
+            <div className=' w-[15%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Стоимость доставки:</p>
+                <h2 className='font-medium'>от £13.00</h2>
+              </div>
+            </div>
+
+            <div className=' w-[11%] h-[80%] border-r-[1px] border-gray-300 flex justify-center items-center'>
+              <div>
+                <p className='text-sm'>Итого:</p>
+                <h2 className='font-medium'>£90.50</h2>
+              </div>
+            </div>
+
+            <div className='w-[5%] h-[80%] flex justify-center items-center'>
+              <img src={SelectIcons} alt="" />
+            </div>
+          </div>
+        </header>
+      </section>
+
+      <section className=' w-full h-auto py-20'>
+        <div className=' w-full h-auto mb-10 py-5 flex justify-center items-center'>
+          <div className=' w-[80%] h-full flex justify-start items-center'>
+            <h2 className='font-bold text-3xl w-[40%]'>4 простых шага для ваших покупок в Великобритании </h2>
+          </div>
+        </div>
+
+        <header className='mb-2 w-full h-[350px] flex flex-wrap justify-center items-center gap-10'>
+          <div className=' w-[280px] h-[350px]'>
+            <div className=' w-full h-[60%] mb-3 flex justify-center items-center'>
+              <img className='h-full' src={Illyustratsiya1} alt="" />
+            </div>
+
+            <div className=' w-full h-[40%] px-2'>
+              <h2 className='font-bold w-[50%] mb-2'>вы ВЫБИРАЕТЕ ТОВАР</h2>
+              <p className='text-sm'>в английском магазине, оплачиваете и указываете <span className='text-green-500'>адрес склада</span> OkeyPost</p>
+            </div>
+          </div>
+
+          <div className=' w-[280px] h-[350px]'>
+            <div className='w-full h-[60%] mb-5 flex justify-center items-center'>
+              <img className='h-full' src={Illyustratsiya2} alt="" />
+            </div>
+
+            <div className=' w-full h-[40%] px-2'>
+              <h2 className='font-bold w-[70%] mb-4'>ПОКУПКИ ПРИХОДЯТ НА СКЛАД</h2>
+              <p className='text-sm'>ПОКУПКИ ПРИХОДЯТ НА СКЛАД</p>
+            </div>
+          </div>
+
+          <div className=' w-[280px] h-[350px]'>
+            <div className='w-full mb-5 h-[60%] flex justify-center items-center'>
+              <img className='h-full' src={Illyustratsiya3} alt="" />
+            </div>
+
+            <div className=' w-full h-[40%] px-2'>
+              <h2 className='font-bold w-[70%] mb-4'>ПОКУПКИ ПРИХОДЯТ НА СКЛАД</h2>
+              <p className='text-sm'>ПОКУПКИ ПРИХОДЯТ НА СКЛАД</p>
+            </div>
+          </div>
+
+          <div className=' w-[280px] h-[350px]'>
+            <div className=' w-full h-[60%] mb-5 flex justify-center items-center'>
+              <img className='h-full' src={Illyustratsiya4} alt="" />
+            </div>
+
+            <div className=' w-full h-[40%] px-2'>
+              <h2 className='font-bold w-[70%] mb-4'>ЗАБИРАЕТЕ
+              свою ПОСЫЛКУ</h2>
+              <p className='text-sm'>в пункте выдачи, на почте или с курьером</p>
+            </div>
+          </div>
+
+        </header>
+
+        <div className=' w-full h-auto py-5 flex justify-center items-center'>
+          <div className=' w-[81%] h-full flex justify-start items-center'>
+            <p className='text-sm w-[40%]'>Не хотите разбираться самостоятельно, наши мастера шопинга с радостью купят все товары за вас.</p>
+          </div>
+        </div>
+
+        <div className=' w-full h-auto py-5 flex justify-center items-center'>
+          <div className=' w-[81%] h-full flex justify-start items-center'>
+            <button className='bg-green-500 px-5 py-3 rounded-full text-white font-medium'>Быстрая покупка</button>
+          </div>
+        </div>
       </section>
     </>
   )

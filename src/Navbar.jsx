@@ -18,13 +18,13 @@ const Navbar = () => {
       </Link>
 
       <ul className="hidden md:flex items-center space-x-10 font-medium text-sm">
-        <Link to={'/Как покупать'}>
+        <Link className='focus:border-b-2 border-black' to={'/Как покупать'}>
           <li>Как покупать</li>
         </Link>
-        <Link to={'/Распродажи'}>
+        <Link className='focus:border-b-2 border-black' to={'/Распродажи'}>
           <li>Распродажи</li>
         </Link>
-        <Link to={'/Цены'}>
+        <Link className='focus:border-b-2 border-black' to={'/Цены'}>
           <li>Цены</li>
         </Link>
         <li>Помощь</li>
