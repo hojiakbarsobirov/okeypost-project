@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import SectionTwoPage from './SectionTwoPage'
 import SkidkaPage from './SkidkaPage'
 import SummaPage from './SummaPage'
+import FooterPage from './FooterPage'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Route path='/Распродажи' element={<SkidkaPage/>}/>
       <Route path='/Цены' element={<SummaPage/>}/>
     </Routes>
+    <FooterPage/>
     </>
   )
 }

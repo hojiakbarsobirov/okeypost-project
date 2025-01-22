@@ -15,6 +15,10 @@ import Illyustratsiya1 from '../public/illyustratsiya.png'
 import Illyustratsiya2 from '../public/illustration.png'
 import Illyustratsiya3 from '../public/illyustratsiya2.png'
 import Illyustratsiya4 from '../public/Illyustratsiya-3.png'
+import BannerImg2 from '../public/banner-img.png'
+import CardIcons1 from '../public/card-icons1.png'
+import CardIcons2 from '../public/card-icons2.png'
+import CardIcons3 from '../public/card-icons3.png'
 
 const SectionPage = () => {
   return (
@@ -315,7 +319,7 @@ const SectionPage = () => {
 
             <div className=' w-full h-[40%] px-2'>
               <h2 className='font-bold w-[70%] mb-4'>ЗАБИРАЕТЕ
-              свою ПОСЫЛКУ</h2>
+                свою ПОСЫЛКУ</h2>
               <p className='text-sm'>в пункте выдачи, на почте или с курьером</p>
             </div>
           </div>
@@ -334,6 +338,93 @@ const SectionPage = () => {
           </div>
         </div>
       </section>
+
+      <section className='w-full h-auto py-14 flex justify-center items-center'>
+        <div className='bg-[url("/public/background-banner.png")] w-[90%] h-auto rounded-2xl bg-cover bg-center flex justify-evenly items-center'>
+
+          <div className='flex justify-center items-center w-[35%] h-full p-6'>
+            <img className='w-[300px]' src={BannerImg2} alt="" />
+          </div>
+
+          <div className=' w-[50%] h-full flex justify-evenly space-y-4 items-start flex-col p-2'>
+            <h2 className='text-2xl font-bold text-white'>Виртуальный тур по нашему складу в реальном времени</h2>
+            <p className='text-gray-300'>Вы можете всегда посмотреть на нашу слаженую работу на складе</p>
+            <button className='bg-green-500 text-white px-4 py-3 rounded-full'>Попробовать</button>
+          </div>
+        </div>
+      </section>
+
+      <section className=' w-full h-auto py-10'>
+        <div className=' w-full h-auto py-5 flex justify-center items-center'>
+          <div className=' w-[85%] h-full flex justify-start items-start flex-col'>
+            <h2 className='font-bold text-4xl'>120 000 довольных клиентов в России </h2>
+            <h2 className='font-bold text-4xl'>уже сделали свой выбор</h2>
+          </div>
+        </div>
+
+        <div className='w-full h-auto py-3 flex justify-center items-center'>
+          <div className=' w-[85%] h-full flex justify-start items-center'>
+            <p className='text-gray-600'>За последний год десятки тысяч наших клиентов заказали товары из Англии и оставили 19 633 отзыва</p>
+          </div>
+        </div>
+
+        <header className=' w-full h-auto py-10 flex flex-wrap justify-evenly items-center gap-9'>
+
+          <div className='bg-white w-[350px] h-[200px] rounded-xl flex justify-center items-start space-y-3 p-4 flex-col'>
+            <img src={CardIcons1} alt="" />
+            <h2 className='font-bold '>Больше не значит дороже</h2>
+            <p className='text-sm'>С ростом веса посылки цена за каждые 0.5 кг уменьшается в прогрессии.</p>
+          </div>
+
+          <div className='bg-white w-[350px] h-[200px] rounded-xl flex justify-center items-start space-y-3 p-4 flex-col'>
+            <img src={CardIcons2} alt="" />
+            <h2 className='font-bold'>Быстрая обработка посылок</h2>
+            <p className='text-sm'>Посылка обрабатывается не дольше 48 часов после поступления на склад.</p>
+          </div>
+
+          <div className='bg-white w-[350px] h-[200px] rounded-xl flex justify-center items-start flex-col space-y-3 p-4'>
+            <img src={CardIcons3} alt="" />
+            <h2 className='font-bold'>SMS-уведомления</h2>
+            <p className='text-sm'>Отслеживайте весь процесс с помощью sms-уведомлений.</p>
+          </div>
+        </header>
+      </section>
+
+      <section className='w-full h-auto py-10'>
+        <div className='w-full h-auto py-2 flex justify-center items-center'>
+          <div className=' w-[85%] h-full flex justify-start items-center'>
+            <h2 className='font-bold text-3xl'>Ваш личный адрес в Великобритании  для покупок</h2>
+          </div>
+        </div>
+
+        <div className=' w-full h-auto py-5 flex justify-center items-center'>
+          <div className=' w-[85%] h-full flex justify-center items-start flex-col space-y-5'>
+            <p className='text-gray-700'>С нами вы получаете целых два адреса в UK! У нас есть два склада для приема посылок – в Лондоне и Манчестере. Указывайте в магазине тот из них, отправка на который обойдется дешевле (или покупка будет без налогов). Чаще всего в Лондоне наши клиенты заказывают одежду и обувь, а в Манчестер идут гаджеты и всё остальное. С OkeyPost вы всегда получаете максимальную выгоду!</p>
+            <p className='text-gray-700'>При доставке из UK в Россию все ваши товары обязательно страхуются. Прием посылок на наш склад, их обработка, удаление лишних коробок, хранение сроком до 70 дней – у нас полностью бесплатно. Мы также бесплатно проводим объединение посылок из разных магазинов в одну. Это необходимо для снижения стоимости доставки посылок из UK в Россию.</p>
+            <p className='text-gray-700'>У нас самая выгодная доставка! От $11.99 за посылку! А если у вас есть какие-то особенные требования, вроде проверки техники или дополнительной пленки для самых хрупких товаров, – операторы нашего склада с радостью выполнят их по спецзапросу.</p>
+            <p className='text-gray-700'>Okeypost.com – это надежно, быстро и выгодно. А в наших соцсетях вы всегда найдете информацию о лучших скидках fyukbqcrb[ магазинов. Не обязательно заходить в Черную пятницу или Prime Day, крутые акции проходят каждый день!</p>
+          </div>
+        </div>
+      </section>
+
+      <section className=' w-full h-auto flex justify-center items-center p-10'>
+            <div className='bg-[url("/public/background-banner.png")] w-[90%] h-auto py-10 bg-cover bg-center rounded-xl flex justify-center items-center'>
+                <div className=' w-[85%] h-[150px] flex justify-between items-center'>
+
+                  <div className=' w-[380px] h-full flex justify-center items-center'>
+                    <h2 className='text-white font-bold text-2xl'>Подпишитеть и будьте в курсе всех скидок и акций магазинов Великобритании!</h2>
+                  </div>
+
+                  <div className=' w-[450px] h-full flex justify-center items-center'>
+                    <input className='w-[90%] h-12 bg-transparent border-b-2 border-gray-300 pl-4 focus:outline placeholder:text-gray-300' placeholder='Введите ваш email' type="text"  />
+                  </div>
+
+                  <div className=' w-[250px] h-full flex justify-start items-center'>
+                    <button className='bg-green-500 px-5 py-3 text-white rounded-full font-medium'>Подписаться</button>
+                  </div>
+                </div>
+            </div>
+        </section>
     </>
   )
 }
