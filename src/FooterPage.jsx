@@ -43,7 +43,7 @@ const FooterPage = () => {
                 </header>
             </section>
 
-            <section className=' w-full h-24 flex justify-center items-center'>
+            <section className=' w-full h-16 flex justify-center items-center'>
                 <div className=' w-[85%] h-full border-t-2 flex justify-center items-center'>
                     <p className='text-gray-400 text-sm'>© 2021 Okeypost . Все права защищены.</p>
                 </div>
