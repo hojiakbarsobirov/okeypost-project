@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="bg-white w-full h-24 flex justify-around items-center md:px-28 fixed z-50">
+    <section className="bg-white w-full h-24 flex justify-around items-center md:px-28 fixed z-50 shadow-sm">
       <Link to={'/'}>
         <img className="w-[150px]" src={Logo} alt="Logo" />
       </Link>
@@ -27,9 +27,9 @@ const Navbar = () => {
         <Link className='focus:border-b-2 border-black' to={'/Цены'}>
           <li>Цены</li>
         </Link>
-        <li>Помощь</li>
-        <li>Бонусы</li>
-        <li>Блог</li>
+        <li><Link className='focus:border-b-2 border-black' to={'/Помощь'}>Помощь</Link></li>
+        <li><Link to={'/Бонусы'}>Бонусы</Link></li>
+        <li><Link to={'/Блог'}>Блог</Link></li>
         <li>Магазины</li>
       </ul>
 

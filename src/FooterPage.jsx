@@ -5,7 +5,7 @@ import FooterIcons from '../public/footer-icons.png'
 const FooterPage = () => {
     return (
         <>
-            <section className=' w-full h-auto py-5 flex flex-wrap justify-center items-center gap-10 space-x-10'>
+            <section className=' w-full h-auto py-20 flex flex-wrap justify-center items-center gap-10 space-x-10'>
 
                 <header className=' w-[250px] h-[300px] flex justify-start items-start flex-col space-y-5 p-5'>
                     <img className='w-[70%]' src={Logotip} alt="" />
