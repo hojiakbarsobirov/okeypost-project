@@ -111,7 +111,7 @@ const SummaPage = () => {
 
                 <header className='mb-10 w-full h-auto space-y-10 flex justify-around items-center flex-col'>
 
-                    <div className='shadow-md rounded-xl w-[82%] h-24 flex items-center'>
+                    <div className='shadow-md rounded-xl w-[82%] py-5 flex flex-wrap items-center'>
                         <div className=' w-24 h-full flex justify-center items-center'>
                             <img src={Logotip1} alt="" />
                         </div>
@@ -146,7 +146,7 @@ const SummaPage = () => {
                         </div>
                     </div>
 
-                    <div className='shadow-md rounded-xl w-[82%] h-24 flex items-center'>
+                    <div className='shadow-md rounded-xl w-[82%] h-auto py-5 flex items-center'>
                         <div className=' w-24 h-full flex justify-center items-center'>
                             <img src={Logotip2} alt="" />
                         </div>
@@ -181,7 +181,7 @@ const SummaPage = () => {
                         </div>
                     </div>
 
-                    <div className='shadow-md rounded-xl w-[82%] h-24 flex items-center'>
+                    <div className='shadow-md rounded-xl w-[82%] h-auto py-5 flex items-center'>
                         <div className=' w-24 h-full flex justify-center items-center'>
                             <img src={Logotip3} alt="" />
                         </div>
