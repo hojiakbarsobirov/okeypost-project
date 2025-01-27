@@ -416,7 +416,7 @@ const SectionPage = () => {
                   </div>
 
                   <div className=' w-[450px] h-full flex justify-center items-center'>
-                    <input className='w-[90%] h-12 bg-transparent border-b-2 border-gray-300 pl-4 focus:outline placeholder:text-gray-300' placeholder='Введите ваш email' type="text"  />
+                    <input className='w-[90%] h-12 bg-transparent focus:outline-none text-white border-b-2 border-gray-300 pl-4 focus:outline placeholder:text-gray-300' placeholder='Введите ваш email' type="text"  />
                   </div>
 
                   <div className=' w-[250px] h-full flex justify-start items-center'>
