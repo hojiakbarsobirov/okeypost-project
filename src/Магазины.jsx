@@ -16,13 +16,15 @@ const Магазины = () => {
         </div>
       </section>
 
-      <section className=' w-full h-auto flex flex-wrap justify-center items-center gap-10 p-10'>
-        {Item?.map((item, index) => (
-          <div key={index} className='shadow-md w-[270px] h-[220px] rounded-xl flex justify-center items-start flex-col space-y-10 px-4'>
-            <img src={item.img} alt="" />
-            <h2 className='font-bold'>{item.title}</h2>
-          </div>
-        ))}
+      <section className=' w-full h-auto flex justify-center items-center'>
+        <section className='w-[85%] h-full flex flex-wrap justify-start items-center gap-10 p-10'>
+          {Item?.map((item, index) => (
+            <div key={index} className='shadow-md w-[270px] h-[220px] rounded-xl flex justify-center items-start flex-col space-y-10 px-4'>
+              <img src={item.img} alt="" />
+              <h2 className='font-bold'>{item.title}</h2>
+            </div>
+          ))}
+        </section>
       </section>
 
 

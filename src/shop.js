@@ -1,12 +1,12 @@
-import shopImg1 from  '../public/shop-img1.png'
-import shopImg2 from  '../public/shop-img2.png'
-import shopImg3 from  '../public/shop-img3.png'
-import shopImg4 from  '../public/shop-img4.png'
-import shopImg5 from  '../public/shop-img5.png'
-import shopImg6 from  '../public/shop-img6.png'
-import shopImg7 from  '../public/shop-img7.png'
-import shopImg8 from  '../public/shop-img8.png'
-import shopImg9 from  '../public/shop-img9.png'
+import shopImg1 from '../public/shop-img1.png'
+import shopImg2 from '../public/shop-img2.png'
+import shopImg3 from '../public/shop-img3.png'
+import shopImg4 from '../public/shop-img4.png'
+import shopImg5 from '../public/shop-img5.png'
+import shopImg6 from '../public/shop-img6.png'
+import shopImg7 from '../public/shop-img7.png'
+import shopImg8 from '../public/shop-img8.png'
+import shopImg9 from '../public/shop-img9.png'
 import shopImg10 from '../public/shop-img10.png'
 import shopImg11 from '../public/shop-img11.png'
 import shopImg12 from '../public/shop-img12.png'
@@ -34,8 +34,8 @@ const Item = [
     {
         img: shopImg1,
         title: 'Primark (Форма заказа)'
-    }, 
-    
+    },
+
     {
         img: shopImg2,
         title: 'H&M'
@@ -52,7 +52,7 @@ const Item = [
     },
 
     {
-        img:shopImg5,
+        img: shopImg5,
         title: 'Sportdirect'
     },
 
@@ -116,7 +116,7 @@ const Item = [
         title: 'New Look'
     },
 
-   {
+    {
         img: shopImg18,
         title: 'Puma'
     },

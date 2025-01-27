@@ -17,7 +17,7 @@ const БлогPage = () => {
       </section>
 
       <section className=' w-full h-auto  flex justify-center items-center'>
-        <header className=' w-[90%] h-full flex flex-wrap justify-center items-center gap-14'>
+        <header className=' w-[90%] h-full flex flex-wrap justify-center items-center gap-10'>
           {item?.map((item) => (
             <div className=' p-2 rounded-lg w-[400px] h-[300px] flex justify-start items-center flex-col'>
               <img className='h-[65%]' src={item.img} alt="" />
