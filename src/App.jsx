@@ -9,6 +9,7 @@ import FooterPage from './FooterPage'
 import Помощь from './Помощь'
 import БонусыPage from './БонусыPage'
 import БлогPage from './БлогPage'
+import Магазины from './Магазины'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path='/Помощь' element={<Помощь/>}/>
       <Route path='/Бонусы' element={<БонусыPage/>}/>
       <Route path='/Блог' element={<БлогPage/>}/>
+      <Route path='/Магазины' element={<Магазины/>}/>
     </Routes>
     <FooterPage/>
     </>

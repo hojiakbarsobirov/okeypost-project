@@ -30,7 +30,7 @@ const Navbar = () => {
         <li><Link className='focus:border-b-2 border-black' to={'/Помощь'}>Помощь</Link></li>
         <li><Link to={'/Бонусы'}>Бонусы</Link></li>
         <li><Link to={'/Блог'}>Блог</Link></li>
-        <li>Магазины</li>
+        <li><Link to={'/Магазины'}>Магазины</Link></li>
       </ul>
 
       <div className="md:hidden flex items-center">
